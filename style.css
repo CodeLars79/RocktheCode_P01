@@ -359,30 +359,31 @@ footer {
 }
 
 @media (max-width: 620px) {
+  h1 {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 24px;
+  }
   header {
-    height: 350px;
+    height: 120px;
   }
 
   .container-header {
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    justify-content: space-around;
-    align-items: center;
+    padding: 5px;
   }
 
   .container-links {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    flex-direction: row;
+    gap: 15px;
     padding: 5px;
-    padding-top: 10px;
-    justify-content: space-around;
-    align-items: center;
+    padding-top: 5px;
   }
 
   .centered-headline {
-    font-size: 25px;
+    font-size: 22px;
     top: 35%;
   }
 
